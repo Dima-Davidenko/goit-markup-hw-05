@@ -1,3 +1,4 @@
+// Our clients section
 .clients {
   padding: 94px 0;
 }
@@ -9,6 +10,7 @@
   margin-top: 0;
   margin-bottom: 50px;
 }
+// List client's Logos. From SVG sprite
 .clients__list {
   @extend .list;
   display: flex;

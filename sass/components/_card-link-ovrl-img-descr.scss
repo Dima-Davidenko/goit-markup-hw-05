@@ -1,3 +1,4 @@
+// Card-link with image, overlay, title and description
 .card-link {
   @extend .link;
   display: block;
@@ -11,10 +12,12 @@
     outline: none;
   }
 }
+// Container for overlay
 .card-link__wrap-overlay {
   position: relative;
   overflow: hidden;
 }
+// Overlay styles (text on semitransparent background, slides from bottom to top with transition)
 .card-link__overlay {
   position: absolute;
   bottom: 0;
@@ -30,12 +33,10 @@
   line-height: 1.56;
   color: $sec-text-clr;
 }
-
-/* Main Projects Project list img remoove white space */
 .card-link__img {
   display: block;
 }
-/* Main Projects Project list title-box */
+// Container for image description
 .card-link__title-box {
   padding: 20px 24px;
 
@@ -43,6 +44,7 @@
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
+// Card main title
 .card-link__title {
   margin: 0 0 4px;
 
@@ -51,6 +53,7 @@
   letter-spacing: 0.06em;
   color: $title-text-clr;
 }
+// Card description
 .card-link__description {
   margin: 0;
 

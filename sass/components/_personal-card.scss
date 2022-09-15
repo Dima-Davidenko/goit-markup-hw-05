@@ -1,18 +1,21 @@
+// Card with img (photo), shadows, title (name), description (profession). Width is defined by img width.
 $personal-card_font-weight: $prime-fnt-weight;
 $personal-card_font-size: $primary-fnt-size;
 $personal-card_text-clr: $title-text-clr;
 $personal-card_fnt-size: $primary-fnt-size;
-
+// Card shadows, border and background
 .personal-card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: $primary-bkg-clr;
 }
+// Box for image description
 .personal-card__title-box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+// Title styles (name)
 .personal-card__name {
   margin: 0;
 
@@ -22,7 +25,7 @@ $personal-card_fnt-size: $primary-fnt-size;
   text-align: center;
   color: $personal-card_text-clr;
 }
-/* Main Team Team list Card Description */
+/* Card Description */
 .personal-card__profession {
   margin-top: 10px;
   margin-bottom: 0;
@@ -32,6 +35,7 @@ $personal-card_fnt-size: $primary-fnt-size;
   text-align: center;
 }
 
+// Example of markup
 // <li class="personal-card">
 //   <img src="./images/mykola-tar.jpg" alt="Маркетолог Микола Тарасов" width="270" />
 //   <div class="personal-card__title-box">

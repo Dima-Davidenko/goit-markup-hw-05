@@ -1,5 +1,4 @@
 // General Logo styles
-
 $logo-accent-color: $primary-accent-clr;
 $logo-color: #000000;
 .logo {
@@ -16,6 +15,7 @@ $logo-color: #000000;
   color: $logo-accent-color;
 }
 
+//Example of markup for this Logo
 // <a class="logo site-nav__logo" href="./index.html">
 //    <span class="logo__accent">Web</span>
 //    Studio
