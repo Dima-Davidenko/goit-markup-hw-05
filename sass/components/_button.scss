@@ -24,12 +24,7 @@
   }
 }
 
-.button--primary {
-  color: $sec-text-clr;
-
-  background-color: $primary-accent-clr;
-}
-.button--secondary {
+.button--passive {
   color: $title-text-clr;
 
   background-color: $sec-accent-clr;
@@ -42,7 +37,6 @@
     outline: none;
   }
 }
-
 .button--active {
   color: $sec-text-clr;
 
