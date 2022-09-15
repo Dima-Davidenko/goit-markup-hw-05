@@ -82,6 +82,9 @@
   &:focus {
     color: $primary-accent-clr;
   }
+  &:focus {
+    outline: 1px solid $primary-accent-clr;
+  }
 }
 
 .contact-list__icon {

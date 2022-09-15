@@ -10,6 +10,9 @@ $logo-color: #000000;
   line-height: 1.2;
   text-decoration: none;
   color: $logo-color;
+  &:focus {
+    outline: 1px solid $primary-accent-clr;
+  }
 }
 .logo__accent {
   color: $logo-accent-color;
