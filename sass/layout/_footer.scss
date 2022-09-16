@@ -14,35 +14,12 @@
     padding-top: 12px;
   }
 }
-.footer__contacts {
-  @extend .list;
-}
-.footer__logo {
+.logo--footer {
   display: inline-block;
   margin-bottom: 20px;
 
   color: $sec-text-clr;
 }
-
-// Footer Contacts
-.footer__contacts-item {
-  margin-bottom: 9px;
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-// Link on e-mail and phone number
-.footer__contacts-link {
-  @extend .link;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  @include hov-foc-effect-color;
-}
-// Link on Google maps
-.footer__contacts-link--gmaps {
-  color: $sec-text-clr;
-}
-
 // Footer section social networks
 .footer__subscribe-title {
   margin: 0;

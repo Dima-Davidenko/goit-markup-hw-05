@@ -21,13 +21,13 @@
   background-color: #ffffff;
 }
 
-.list, .projects__list, .clients__list, .team__list, .work-examples__work-list, .features__list, .footer__contacts, .contact-list, .site-nav__list, .filter, .social-net-list {
+.list, .projects__list, .clients__list, .team__list, .work-examples__work-list, .features__list, .contact-list, .site-nav__list, .contacts, .filter, .social-net-list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.link, .clients__link, .footer__contacts-link, .contact-list__link, .site-nav__link, .card-link, .social-net-list__link {
+.link, .clients__link, .contact-list__link, .site-nav__link, .card-link, .contacts__link, .social-net-list__link {
   display: inline-block;
   font-style: normal;
   text-decoration: none;
@@ -216,6 +216,29 @@
   margin-right: 0;
 }
 
+.contacts__item {
+  margin-bottom: 9px;
+}
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__link:hover, .contacts__link:focus {
+  color: #2196f3;
+}
+.contacts__link:focus {
+  outline: 2px solid #2196f3;
+}
+
+.contacts__link--gmaps {
+  color: #ffffff;
+}
+
 .card-link {
   display: block;
   width: 370px;
@@ -305,7 +328,7 @@
   margin-right: 0;
 }
 
-.site-nav__logo {
+.logo--site-nav {
   margin-right: 93px;
 }
 
@@ -391,32 +414,9 @@
   padding-top: 12px;
 }
 
-.footer__logo {
+.logo--footer {
   display: inline-block;
   margin-bottom: 20px;
-  color: #ffffff;
-}
-
-.footer__contacts-item {
-  margin-bottom: 9px;
-}
-.footer__contacts-item:last-child {
-  margin-bottom: 0;
-}
-
-.footer__contacts-link {
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer__contacts-link:hover, .footer__contacts-link:focus {
-  color: #2196f3;
-}
-.footer__contacts-link:focus {
-  outline: 2px solid #2196f3;
-}
-
-.footer__contacts-link--gmaps {
   color: #ffffff;
 }
 
